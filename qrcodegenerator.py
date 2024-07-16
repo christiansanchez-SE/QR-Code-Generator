@@ -1,3 +1,8 @@
+# Flask: The main class used to create an instance of the web application
+# Request: Used to handle incoming data in the form of HTTP requests
+# Render_template: Used to render HTML templates
+# Send_file: Used to send files to the client
+from flask import Flask, request, render_template, send_file
 # This is a library used to generate QR codes
 import qrcode
 # This is a library used to handle image files. 
